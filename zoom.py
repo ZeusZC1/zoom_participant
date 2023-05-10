@@ -4,10 +4,10 @@ import requests
 import json
 from collections import defaultdict
 
-ZOOM_API_KEY = 'JfzV4N9RSUWXF3W87jlP9A'
-ZOOM_API_SECRET = 'ejhcrLroqZ1MFmNnCAwD2C9Q66zVqfNXjRVe'
-ZOOM_MEETING_ID = '8297528028'
-ZOOM_MEETING_PASSWORD = 'cS4hAM'
+ZOOM_API_KEY = ''
+ZOOM_API_SECRET = ''
+ZOOM_MEETING_ID = ''
+ZOOM_MEETING_PASSWORD = ''
 
 # Create a JWT token to authenticate with the Zoom API
 def generate_jwt(api_key, api_secret):
